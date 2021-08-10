@@ -320,13 +320,15 @@ section {
 }
 
 .intro-table-first {
-	background-image: url('../img/tile1_background.jpg');
+	/* background-image: url('../img/tile1_background_try.jpg'); */
+	background-color: red;
 }
 
 .intro-table-hover {
-	-webkit-transition: background-image 0.3s ease, background-position 0.3s;
-	transition: background-image 0.3s ease, background-position 0.3s;
-	background-image: url('../img/tile2_background.jpg');
+	/* -webkit-transition: background-image 0.3s ease, background-position 0.3s;
+	transition: background-image 0.3s ease, background-position 0.3s; */
+	/* background-image: url('../img/tile2_background.jpg'); */
+	background-color: rgb(84, 84, 185);
 }
 
 .intro-table-hover h4 {
@@ -337,12 +339,13 @@ section {
 }
 
 .intro-table-hover:hover {
-	background-image: url('../img/tile2_background.jpg');
-	background-position: 50% 50%;
+	/* background-image: url('../img/tile2_background.jpg'); */
+	background-color: rgb(136, 61, 206);
+	/* background-position: 50% 50%; */
 }
 
 .intro-table-third {
-	background-image: url('../img/tile3_background.jpg');
+	background-color: green;
 }
 
 .intro-table-hover .expand {
@@ -449,6 +452,9 @@ section {
 	}
 }
 
+#services {
+	background: #f7f7f7;
+}
 .services {
 	margin: 40px 0;
 }
