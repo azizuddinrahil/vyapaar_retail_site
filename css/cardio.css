@@ -683,7 +683,14 @@ footer .trial-button {
 	overflow: hidden !important;
 	margin: 40px 0;
 }
-
+.flash {
+	-webkit-animation-name: flash;
+	animation-name: flash;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
 footer .open-blink {
 	content: ' ';
 	position: relative;
