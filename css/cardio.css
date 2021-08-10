@@ -8,6 +8,15 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+#title {
+	color: red;
+	display: inline;
+}
+
+#tag {
+	display: inline;
+}
+
 .parallax {
 	position: absolute;
 	overflow: hidden;
