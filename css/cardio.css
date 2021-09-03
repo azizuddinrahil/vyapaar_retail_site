@@ -126,8 +126,8 @@ header {
 	position: relative;
 	width: 100%;
 	color: white;
-	background: rgba(28, 36, 65, 0.93);
-	background: url('../img/header.jpg');
+	background: rgba(6, 29, 41, 0.93);
+	
 	background-size: cover;
 }
 
