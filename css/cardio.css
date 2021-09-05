@@ -673,7 +673,8 @@ section {
 
 footer {
 	padding: 140px 0 40px;
-	background: url('../img/footer.jpg');
+	background: rgba(6, 29, 41, 0.93);
+	/*background: url('../img/footer.jpg');*/
 	-webkit-background-size: cover;
 	background-size: cover;
 }
