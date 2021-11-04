@@ -16,6 +16,13 @@ body {
 #tag {
 	display: inline;
 }
+#certificate-container {
+  overflow: scroll;
+}
+
+#certificate-container img {
+    padding-right: 20px;
+}
 
 #compare-title {
 	margin-bottom: 75px;
